@@ -1,0 +1,127 @@
+Z nieupowa�nionym dost�pem do danych mamy do czynienia, gdy dost�p do istotnych, prywatnych danych
+
+i informacji uzyskuj� osoby trzecie, kt�rym nie zezwolili�my na taki dost�p.
+
+ 
+
+ 
+
+Sytuacja nieupowa�nionego dost�pu do danych mo�e by� wynikiem:
+
+ 
+
+nie�wiadomych dzia�a� u�ytkownika,
+
+celowych dzia�a� os�b trzecich.
+
+
+Kontrola dost�pu danych
+
+W systemach komputerowych podstawowym mechanizmem kontroli dost�pu do danych s� konta u�ytkownik�w. Ka�de konto posiada okre�lone prawa dost�pu. Weryfikowanie to�samo�ci u�ytkownika konta odbywa si� za pomoc� uwierzytelniania. Podstawow� metod� uwierzytelniania jest has�o alfanumeryczne (cho� stosuje si� te� has�a graficzne, karty dost�pu czy metody biometryczne).
+
+
+
+Konta u�ytkownik�w s� powszechnie stosowane w sieciach komputerowych.
+
+W systemie Windows konta te mo�na tworzy� za pomoc� funkcji Konta u�ytkownik�w, dost�pnej w Panelu sterowania.
+W �adnym wypadku nie wolno zdradza� innym osobom swoich hase�, nie powinno si� te� ich zapisywa�. Zalecane jest zmienianie has�a co 30 dni.
+
+
+
+
+Co warto wiedzie�? 
+
+Cz�sto zdarza si�, �e umo�liwiamy innym dost�p do danych na skutek w�asnego braku �wiadomo�ci konsekwencji takiego poczynania. Umieszczaj�c dane (fotografie, komentarze, dane osobowe) w serwisach spo�eczno�ciowych, zwykle zgadzamy si� na ich udost�pnianie innym cz�onkom serwisu. Zakres widoczno�ci danych mo�e by� jednak wi�kszy ni� si� spodziewamy, np. dost�p do danych mog� mie� tak�e �znajomi znajomych� lub mog� by� one publiczne i podlega� wyszukiwaniu w wyszukiwarkach internetowych.
+
+
+
+Jak si� ustrzec? 
+
+Nie nale�y podawa� swoich  pe�nych danych osobowych, o ile nie jest to konieczne.
+
+Zgodnie z polskim prawem, ka�dej osobie przys�uguje prawo wgl�du do zgromadzonych o niej danych oraz ich poprawiania. Mo�na tak�e domaga� si� zaprzestania przetwarzania swoich danych osobowych.
+
+Wa�ne dane zapisane na wymiennych no�nikach danych powinny by� dodatkowo zabezpieczone, np. poprzez u�ycie szyfrowania.
+
+
+Nieupowa�niony dost�p do danych spowodowany dzia�aniem innych os�b
+
+
+Ma miejsce, gdy dane zostan� skopiowane wskutek celowych poczyna� os�b trzecich. Du�� warto�ci� przedstawiaj� si� dla przest�pc�w dane takie jak informacje o kontrahentach firmy, o wynikach finansowych, kody dost�pu, numery kart kredytowych czy prywatne zdj�cia.
+
+
+
+Najcz�ciej wykorzystywane metody do uzyskania dost�pu do wskazanych danych to:
+
+ 
+
+* phishing, 
+
+ 
+
+* exploit.
+
+
+
+
+Exploit
+Technika polegaj�ca na wykorzystaniu b��d�w w systemie operacyjnym
+
+lub programach do uruchomienia nieautoryzowanego, z�o�liwego kodu. Szczeg�lnie nara�one na tego rodzaju atak s�: system operacyjny, przegl�darki internetowe, wtyczka do przegl�darek Adobe Flash Player i czytniki PDF-�w Adobe Reader. Przest�pca wysy�a ofierze odpowiednio spreparowany plik, kt�ry po otwarciu powoduje uaktywnienie z�o�liwego kodu; niekiedy wystarczy samo wej�cie na w�a�ciwie spreparowan� stron�. Z�o�liwe oprogramowanie jest cz�sto rozprowadzane z pirackimi kopiami program�w.
+
+
+
+
+Phishing
+Spos�b zdobywania informacji oparty na in�ynierii spo�ecznej - podszywaniu si�. U�ytkownik jest zazwyczaj zach�cany do odwiedzenia strony internetowej, wygl�daj�cej jak prawdziwa, lecz kontrolowanej przez przest�pc�w. Wpisuj�c na takiej stronie sw�j identyfikator i has�o, u�ytkownik przekazuje te dane przest�pcom.
+
+
+
+Jak si� zabezpieczy�? 
+
+PHISHING:
+
+nie nale�y klika� na linki znajduj�ce si� w otrzymywanych wiadomo�ciach; w razie potrzeby nale�y wej�� na stron�, wpisuj�c jej adres w przegl�darce lub wybieraj�c dodan� przez siebie zak�adk�,
+
+w przypadku bezpiecznych po��cze� nale�y zawsze sprawdza� certyfikat strony i nie kontynuowa� procesu logowania, je�eli przegl�darka informuje, �e certyfikat jest niepoprawny.
+
+EXPLOIT:
+
+nale�y regularnie aktualizowa� wszystkie zainstalowane w komputerze programy.
+
+
+Odmiany z�o�liwego oprogramowania
+
+Trojan - wszelkiego rodzaju programy,kt�re pod pozorem wykonywania po�ytecznych czynno�ci w istocie wykradaj� dane lub wykonuj� inne niepo��dane operacje. Przyk�adem s� fa�szywe programy anywirusowe.
+
+Spyware - programy s�u��ce do wykradania z komputera r�nego rodzaju danych (plik�w, hase� dost�pu, historii odwiedzanych stron).
+
+Botnet - z�o�liwe opragramowanie instalowane na wielu komputerach (cz�sto nazywanych komputerami zombie) i kontrolowane przez jedn� osob�. Wykorzystywane m. in do: spamowania, przeprowadzania atak�w atak�w na serwery, operacji prania brudnych pieni�dzy.
+
+Wirusy komputerowe - programy, kt�re maj� na celu powielanie si�, poprzez zara�anie innych program�w, rzadziej dokument�w. Wirusy mog� tak�e uszkadza� oprogramowanie zainstalowane na komputerze.
+
+Robaki komputerowe - s� zbli�one do wirus�w, lecz rozprzestrzeniaj� si� poprzez sieci komputerowe (poczt� elektroniczn�, komunikatory, serwisy spo�eczno�ciowe).
+
+
+Odmiany z�o�liwego oprogramowania
+
+Keylogger - program, kt�ry funkcjonuje w systemie w niezauwa�alny spos�b (np. nie wida� go na pasku zada�). Jego zadaniem jest przechwytywanie i gromadzenie informacji o wszystkich naci�ni�tych klawiszach (a wi�c tak�e wprowadzanych przez klawiatur� hase�), a nast�pnie przesy�anie zebranych danych do osoby kontroluj�cej program, kt�ra mo�e ich u�y� np. do uzyskania dost�pu do konta bankowego u�ytkownika
+
+
+
+Oprogramowanie zabezpieczaj�ce komputer
+
+Oprogramowanie antywirusowe - istotnym jest, by program by� nie tylko aktywny, ale regularnie aktualizowany.  Bezpiecze�stwo komputera wzro�nie r�wnie�, je�eli b�dziemy systematycznie uruchamiali funckj� skanowania systemu w celu wykrycia z�o�liwego oprogramowania.
+
+Szyfrowanie danych
+
+Najwy�szy poziom ochrony danych zapewnia szyfrowanie. Proces ten umo�liwia zakodowanie informacji w postaci uniemo�liwiaj�cej jej odczytanie bez znajomo�ci klucza. Niekt�re aplikacje np. programy z rodziny Microsoft Office posiadaj� funkcj� szyfrowania zapisanych dokument�w. W systemach Windows jest r�wnie� mo�liwe zaszyfrowanie zawarto�ci piku. Aby uaktywni� t� funckj�, nale�y z menu kontekstowego pliku wybra� W�a�ciwo�ci, a nast�pnie przej�� do Zaawansowanych. W oknie Atrybuty zaawansowane mo�na uaktywni� opcj� szyfrowania zawarto�ci pliku.
+
+
+
+
+
+
+
+
+

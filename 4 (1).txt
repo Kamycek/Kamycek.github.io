@@ -1,0 +1,53 @@
+Odzyskiwanie danych to proces przywracania dostępu do danych zapisanych na dowolnym nośniku lub odtwarzaniu fizycznego zapisu w celu otrzymania pierwotnej struktury danych. W profesjonalnych laboratoriach, specjaliści są w stanie odzyskać dane utracone nawet w najcięższych przypadkach, jak pożar czy powódź. W chwili obecnej odzyskiwanie danych stało się jedną z wielu specjalności informatyki. Wymaga wiedzy z zakresu elektroniki, robotyki i automatyki, fizyki, programowania, oraz szeroko pojętych metod przechowywania danych: systemy bazodanowe, systemy plików i kryptologii.
+
+Średnia skuteczność odzyskiwania danych na całym świecie w najlepszych laboratoriach wynosi 76%.
+
+Utrata danych może nastąpić na skutek uszkodzeń logicznych � tzw. programowych lub uszkodze� fizycznych (sprz�towych) samego no�nika.
+
+
+Uszkodzenia logiczne polegaj� na naruszeniu integralno�ci struktury logicznej danych zapisanych na no�niku. Sam no�nik jest w pe�ni sprawny. Uszkodzenia logiczne mog� by� spowodowane atakami wirus�w, przerwami w dop�ywie pr�du elektrycznego, skokami napi�cia lub b��dami w oprogramowaniu. Przyczynami uszkodze� programowych s� r�wnie� b��dy pope�nione przez cz�owieka � formatowanie dysku, kasowanie plik�w czy uszkodzenie partycji poprzez niew�a�ciwe u�ycie narz�dzi dyskowych, np.: fdisk, cfdisk.
+
+Uszkodzenia logiczne mo�emy podzieli� na (potrzebny przypis):
+
+uszkodzenie systemu operacyjnego,
+uszkodzenie systemu plik�w,
+uszkodzenie logiczne powsta�e wskutek b��du u�ytkownika.
+
+
+
+Uszkodzenia fizyczne s� najcz�ciej trudniejsze do odtworzenia od uszkodze� logicznych. W tego typu przypadkach uszkodzeniu najcz�ciej ulegaj� elementy mechaniczne dysk�w twardych, takie jak g�owice, silnik. Uszkodzeniom ulegaj� r�wnie� uk�ady elektroniki i talerze. W pozosta�ych no�nikach danych, uszkodzeniu ulega przede wszystkim materia� na kt�rym zapisane s� dane � warstwa refleksyjna w p�ytach CD, DVD, czy uk�ady elektroniczne � pami�ciach flash.
+
+Uszkodzenia fizyczne dziel� si� na:
+
+uszkodzenie mechaniczne (dekalibracja mechaniczna, dekalibracja termiczna, uszkodzenie �o�yska silnika, wybicie stojana silnika),
+uszkodzenie elektroniczne (uszkodzenie modu�u elektroniki zewn�trznej, uszkodzenie g�owicowego przedwzmacniacza sygna�u),
+uszkodzenie logiczne lub mechaniczne struktury serwisowej dysku (Service Area).
+
+
+
+Od kilkunastu lat technologie informatyczne na dobre zadomowi�y si� w naszym �yciu codziennym. Ju� dzi� 90% dokument�w powstaje w postaci elektronicznej, a 70% z nich nigdy nie jest drukowane i pozostaje wy��cznie w formie elektronicznej. Obie te liczby rosn� wraz z upowszechnianiem si� rozwi�za� informatycznych i urz�dze� mobilnych. Ze wszystkich dost�pnych no�nik�w danych najpopularniejsze s� dyski twarde. Wynika to z bardzo dobrego wsp�czynnika ceny do pojemno�ci i kr�tkiego czasu dost�pu do danych. Ponad 80% wszystkich u�ywanych no�nik�w danych to dyski twarde, a w nast�pnych latach ta liczba mo�e si�gn�� ponad 90% wraz z upowszechnianiem si� urz�dze� mobilnych.
+
+Najlepsze no�niki przechowywania danych:
+
+dysk twardy magnetyczny
+dysk p�przewodnikowy SSD
+pami�� pendrive
+przeno�ny dysk USB
+serwer NAS
+chmura internetowa
+
+
+
+
+Nie istniej� idealne zabezpieczenia przed utrat� danych. Nawet uchodz�ce za niezawodne systemy macierzowe np RAID daj� co najwy�ej 99,9% pewno�ci bezpiecze�stwa danych. U�ywaj�c na co dzie� zwyk�ego komputera PC, regularnie zachowuj swoje dane na wydzielonej partycji dysku (rozwi�zanie najprostsze cho� najmniej bezpieczne) lub na innych no�nikach (na przyk�ad na drugim dysku). Tanim i �atwo dost�pnym no�nikiem do archiwizacji stosunkowo niewielkiej ilo�ci danych jest p�yta CD lub DVD.
+
+Podzia� dysku na partycje pomaga ustrzec si� przed utrat� danych wskutek wyst�pienia b��du logicznego, np. b��d�w systemu, wadliwej pracy aplikacji, czy ataku wirusa. Nie trzymaj strategicznych danych na partycji systemowej (czyli tej, na kt�rej zainstalowany jest system operacyjny). Jest ona najbardziej nara�ona na wszelkiego rodzaju usterki logiczne prowadz�ce do utraty danych.
+
+
+
+Wymienione poni�ej objawy mog� zapowiada� awari� dysku twardego, a w konsekwencji utrat� zapisanych na nim informacji. W przypadku wyst�pienia przynajmniej jednego z objaw�w uszkodzenia nale�y utworzy� kopi� zapasow� danych zapisanych na dysku.
+
+Dysk zaczyna pracowa� coraz wolniej, co objawia si� tym, �e operacje wykorzystuj�ce dysk w swojej pracy (np. zapis pliku lub jego odczyt) zajmuj� coraz wi�cej czasu.
+Z dysku twardego dochodz� nietypowe ha�asy, jak na przyk�ad przenikliwe �wistanie lub d�wi�ki przypominaj�ce mielenie, skrzypienie lub stukanie.
+Zaczynaj� pojawia� si� problemy z dost�pem do danych na dysku. Scandisk uruchamia si� przed uruchomieniem Windows w trybie skanowania powierzchni dysku.
+W przypadku kiedy dysk twardy ulegnie uszkodzeniu fizycznemu, nie wolno otwiera� jego obudowy. Zdj�cie obudowy dysku twardego w pomieszczeniach, kt�re nie s� do tego przystosowane, grozi bezpowrotn� utrat� danych lub drastycznym zmniejszeniem �ywotno�ci no�nika (nawet stukrotnym!). Dyski twarde produkowane s� w warunkach laboratoryjnych. Pojedynczy py�ek kurzu mo�e mie� szeroko�� r�wn� kilku lub kilkudziesi�ciu �cie�kom dysku, na kt�rych zapisane s� dane. Na ka�dej �cie�ce mo�e by� zapisanych kilka plik�w. Mo�na wyobrazi� sobie wi�c straty, jakie mo�e spowodowa� kurz dostaj�cy si� do wn�trza dysku twardego. Bezpiecznie mo�na �ci�gn�� obudow� HDD tylko w przystosowanych do tego celu miejscach takich, jak hale technologiczne producent�w dysk�w twardych, czy komory laminarne profesjonalnych laboratori�w odzyskiwania danych.
