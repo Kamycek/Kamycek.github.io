@@ -16,10 +16,8 @@ nav{
     font-size: 1.8rem;
     padding: 0 10%;
     color: #444444;
-}
-
-.first{
-    margin-top: 4vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
 }
 
 h1{
@@ -32,11 +30,11 @@ h2{
     font-size: 2.4rem;
 }
 
-.sections:nth-child(odd){
+.sections:nth-child(even){
     background-color: #fefefe;
 }
 
-.sections:nth-child(even){
+.sections:nth-child(odd){
     background-color: #eeeeee;
 }
 
@@ -54,4 +52,8 @@ h2{
     nav, .navbar-brand{
         font-size: 1.4rem;
      }
+}
+
+hr.white{
+    border-top: 1px solid #fefefe;
 }
