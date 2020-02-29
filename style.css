@@ -113,3 +113,12 @@ a:active,
 a:visited {
     color: #666666;
 }
+
+img {
+    height: 400px;
+}
+
+.zdj {
+    display: flex;
+    justify-content: center;
+}
