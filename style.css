@@ -94,3 +94,18 @@ hr.white {
 strong {
     font-weight: 500;
 }
+
+.internalLink {
+    padding-top: 5vh;
+    margin-top: -5vh;
+}
+
+a {
+    color: #666666;
+}
+
+a:hover,
+a:active,
+a:visited {
+    color: #222222;
+}
