@@ -34,6 +34,11 @@ h2 {
     font-size: 2.4rem;
 }
 
+h3 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
 .sections:nth-child(even) {
     background-color: #fefefe;
 }
