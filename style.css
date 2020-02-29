@@ -67,9 +67,19 @@ h3 {
     nav {
         font-size: 1.8rem;
     }
+
+    ol,
+    a {
+        font-size: 1.4rem;
+    }
 }
 
 @media (max-width: 400px) {
+
+    ol,
+    a {
+        font-size: 1.2rem;
+    }
 
     nav,
     .navbar-brand {
