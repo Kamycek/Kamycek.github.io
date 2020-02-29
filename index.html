@@ -41,9 +41,6 @@
 
 
     <div class="container-fluid sections first" id="section1">
-        <!-- <p>Z nieupoważnionym dostępem do danych mamy do czynienia, gdy dostęp do istotnych, prywatnych danych i
-            informacji uzyskują osoby trzecie, którym nie zezwoliliśmy na taki dostąp. Z tego rozdziału dowiesz się jak
-            ochronić swoje dane.</p> -->
         <h1>Spis treści</h1>
         <h2><a href="#section2">1. Ochrona danych przed nieupoważnionym dostępem powstałym w wyniku nieświadomych
                 działań użytkownika i
@@ -63,6 +60,18 @@
         <hr>
 
         <h2><a href="#section3">2. Rodzaje złośliwego oprogramowania<br></a></h2>
+        <ol>
+            <li><a href="#a2a">Złośliwe oprogramowanie</a>
+                <ul>
+                    <li><a href="#a2a1">Exploit</a></li>
+                    <li><a href="#a2a2">Keylogger</a></li>
+                    <li><a href="#a2a3">Koń trojański</a></li>
+                    <li><a href="#a2a4">Phishing</a></li>
+                </ul>
+            </li>
+            <li><a href="#a2b">Profilaktyka</a></li>
+        </ol>
+
         <hr>
 
         <h2><a href="#section4">3. Sposoby zabezpieczania komputera przed nieupoważnionym dostępem, w tym wskazanie
@@ -74,21 +83,21 @@
                     <li><a href="#a1">Wskazówki dotyczące haseł</a></li>
                 </ul>
             </li>
-            <li><a href="#b">Zapora ogniowa <ul>
-                        <li><a href="#b1">Zapora sprzętowa</a></li>
-                        <li><a href="#b2">Zapora programowa</a></li>
-                        <li><a href="#b3">Firewall Microsoft Windows</a></li>
-                        <li><a href="#b4">Inne programy firewallowe</a></li>
+            <li><a href="#a3b">Zapora ogniowa <ul>
+                        <li><a href="#a3b1">Zapora sprzętowa</a></li>
+                        <li><a href="#a3b2">Zapora programowa</a></li>
+                        <li><a href="#a3b3">Firewall Microsoft Windows</a></li>
+                        <li><a href="#a3b4">Inne programy firewallowe</a></li>
                     </ul></a></li>
-            <li><a href="#c">Aktualizacje oprogramowania</a></li>
-            <li><a href="#d">Ochrona przed złośliwym oprogramowaniem
+            <li><a href="#a3c">Aktualizacje oprogramowania</a></li>
+            <li><a href="#a3d">Ochrona przed złośliwym oprogramowaniem
                     <ul>
-                        <li><a href="#d1">Jaki antywirus jest najlepszy?</a></li>
+                        <li><a href="#a3d1">Jaki antywirus jest najlepszy?</a></li>
                     </ul>
                 </a></li>
-            <li><a href="e">Jak obsługiwać pocztę elektroniczną?<ul>
-                        <li><a href="e1">Załączniki</a></li>
-                        <li><a href="e2">Phishing</a></li>
+            <li><a href="a3e">Jak obsługiwać pocztę elektroniczną?<ul>
+                        <li><a href="a3e1">Załączniki</a></li>
+                        <li><a href="a3e2">Phishing</a></li>
                     </ul></a></li>
         </ol>
         <hr>
@@ -126,7 +135,8 @@
             zwykle zgadzamy się na ich udostępnianie innym członkom serwisu. Zakres widoczności danych może być jednak
             większy niż się spodziewamy, np. dostęp do danych mogą mieć także znajomi znajomych lub mogą być one
             publiczne i podlegać wyszukiwaniu w wyszukiwarkach internetowych.</p>
-        <hr class="white">-->
+        <hr class="white">
+        -->
         <h2 id="a1a" class="internalLink">1. Znajdź i używaj zaufanego oprogramowania antywirusowego lub pakietu</h2>
         <p>Większość wirusów i złośliwych programów, których nie można uniknąć pozostałymi środkami ostrożności
             wymienionymi poniżej, jest stosunkowo niewielka , z którą może sobie poradzić oprogramowanie antywirusowe.
@@ -210,14 +220,41 @@
 
     <div class="container-fluid sections" id="section3">
         <h1>Rodzaje złośliwego oprogramowania</h1>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quasi. Dicta veniam, ipsum quis consequuntur
-            quod inventore hic sapiente minus. A, dolores unde. Reprehenderit quo suscipit ad adipisci corporis ab, at
-            dolorem corrupti in quam, officiis modi asperiores. Minima aliquam quod maiores expedita cupiditate sit odit
-            voluptatum, est vero id assumenda distinctio rerum! Nihil, assumenda illum.</p>
-        <p>Dolores ducimus, facilis excepturi possimus quod quidem illum corrupti velit eum molestiae perferendis
-            architecto corporis culpa id eius aliquam similique impedit beatae quibusdam aliquid eveniet reprehenderit.
-            Quae quasi officia eligendi at aut, voluptate consectetur! Fugit at provident maxime non cum totam
-            laudantium reprehenderit laborum nesciunt.</p>
+        <h2 id="a2a" class="internalLink">Złośliwe oprogramowanie</h2>
+        <p id="a2a1" class="internalLink"><strong>Exploit</strong> to program mający na celu wykorzystanie istniejących
+            błędów w oprogramowaniu.</p>
+        <hr>
+        <p id="a2a2" class="internalLink"><strong>Keyloger</strong> to program rzadziej sprzęt, którego celem jest
+            przechwycenie haseł i innych poufnych danych.</p>
+        <p> Programy te działają na zasadzie przejęcia kontroli nad procedurami systemu operacyjnego
+            służącymi do obsługi klawiatury. Dzięki takim zabiegom mogą przechwytywać komunikaty o
+            wciśniętych klawiszach. Zaawansowane programy monitorujące mogą ponadto przechwytywać zrzuty
+            ekranu, zawartość schowka, dźwięk z mikrofonu.</p>
+        <hr>
+        <p id="a2a3" class="internalLink"><strong>Koń trojański</strong> to szkodliwe oprogramowanie dołączone w ukryciu
+            do innej aplikacji.</p>
+        <p>Takie oprogramowanie często dołączane jest do dostępnych nie zgodnie z licencją gier i aplikacji.</p>
+        <hr>
+        <p id="a2a4" class="internalLink"><strong>Phishing</strong> to sposób zdobycia poufnych informacji oparty na
+            inżynierii społecznej - poprzez podszywanie się.</p>
+        <p>Popularnym celem są banki oraz aukcje internetowe. Phisher zazwyczaj wysyła spam do znacznej liczby
+            potencjalnych ofiar, kierując je na stronę w Internecie, która udaje bank internetowy, a w rzeczywistości
+            przechwytuje wpisywane tam przez ofiary ataku informacje. </p>
+        <hr>
+        <h2 id="a2b" class="internalLink">Profilaktyka</h2>
+        <ul>
+            <li>Zawsze aktualizuj jak najszybciej zainstalowane aplikacje, a przede wszystkim system operacyjny.
+                Uniemożliwi to wykorzystanie części eksploitów.</li>
+            <li>Korzystaj tylko ze wspieranych przez producentów aplikacji i systemu operacyjnego. Zapewni to ciągłość
+                aktualizacji naprawiających luki w bezpieczeństwie.</li>
+            <li>Nie pobieraj nielegalnych gier i apliakacji, ponieważ może być do nich dołączona szkodliwa zawartość
+                (koń trojański).</li>
+            <li>Uważaj na linki i załączniki w wiadomościach.</li>
+            <li>Sprawdzaj certyfikaty stron internetowych.</li>
+            <li>Jeżeli otrzymałeś niepokojącą wiadomość o np. konieczności zmiany hasła w banku upewnij się, że
+                wiadomość jest autentyczna aby nie paść ofiarą Phishingu. Często fałszywe adresy e-mail różnią się
+                jednym znakiem od prawdziwych co jest trudne do wychwycenia.</li>
+        </ul>
     </div>
 
     <div class="container-fluid sections" id="section4">
@@ -240,13 +277,13 @@
             ducha. Czytaaj dalej aby zabezpieczyć swój komputer przed
             innymi.</p>
         <hr class="white">
-        <h2 id="a" class="internalLink">Hasło</h2>
+        <h2 id="a3a" class="internalLink">Hasło</h2>
         <p>Upewnij się, że hasło jest ustawione dla systemu operacyjnego Twojego komputera. Najlepszym sposobem na
             utrzymanie kogoś poza Twoimi kontami i danymi osobowymi jest nie wpuszczenie go na Twój komputer. Zawsze
             możesz utworzyć dodatkowe konta dla gości. Dodatkowe informacje można znaleźć na następujących stronach, do
             których prowadzą linki.</p>
         <br>
-        <p id="a1" class="internalLink"><strong>Wskazówki dotyczące haseł:</strong></p>
+        <p id="a3a1" class="internalLink"><strong>Wskazówki dotyczące haseł:</strong></p>
         <ul>
             <li>Nigdy nie zachowuj domyślnego hasła. Hasła takie jak "hasło", "root", "admin" lub brak hasła w ogóle
                 umożliwiają łatwy dostęp do komputera lub kont internetowych.</li>
@@ -259,27 +296,27 @@
         </ul>
         <!-- TODO biometryczne hasla i zdjecia -->
         <hr class="white">
-        <h2 id="b" class="internalLink">Zapora ogniowa</h2>
+        <h2 id="a3b" class="internalLink">Zapora ogniowa</h2>
         <p>Wszystkim użytkownikom komputerów polecamy rozwiązanie firewallowe. Istnieją dwa sposoby, w jaki zapora może
             chronić Twój komputer i sieć.</p>
-        <p id="b1" class="internalLink"><strong>Zapora sprzętowa</strong> to fizyczne urządzenie, które łączy się z
+        <p id="a3b1" class="internalLink"><strong>Zapora sprzętowa</strong> to fizyczne urządzenie, które łączy się z
             siecią. Często wielu użytkowników, którzy posiadają sieć domową, może używać routera sieciowego jako zapory.
             Dobrym przykładem urządzenia zabezpieczającego sieć z zaporą sieciową i innymi opcjami zabezpieczeń jest
             ZyXEL ZyWALL.</p>
-        <p id="b2" class="internalLink"><strong>Zapora programowa</strong> to program instalowany na komputerze, który
+        <p id="a3b2" class="internalLink"><strong>Zapora programowa</strong> to program instalowany na komputerze, który
             pomaga chronić go przed nieautoryzowanymi danymi przychodzącymi i wychodzącymi. Zapora programowa chroni
             tylko ten komputer, na którym została zainstalowana. Dodatkowo, wiele skanerów antywirusowych zawiera
             programową zaporę sieciową.</p>
         <br>
-        <p id="b3" class="internalLink"><strong>Firewall Microsoft Windows</strong></p>
+        <p id="a3b3" class="internalLink"><strong>Firewall Microsoft Windows</strong></p>
         <p>Jeśli korzystasz z dowolnej wersji systemu Microsoft Windows po XP, w system operacyjny wbudowany jest
             firewall.</p>
         <br>
-        <p id="b4" class="internalLink"><strong>Inne programy firewallowe</strong></p>
+        <p id="a3b4" class="internalLink"><strong>Inne programy firewallowe</strong></p>
         <p>Jeśli nie używasz zapory Windowsa, zapory sprzętowej lub zapory będącej częścią oprogramowania
             zabezpieczającego, możesz również zakupić samodzielny program zapory.</p>
         <hr class="white">
-        <h2 id="c" class="internalLink">Aktualizacje oprogramowania</h2>
+        <h2 id="a3c" class="internalLink">Aktualizacje oprogramowania</h2>
         <p>Nie ma czegoś takiego jak doskonałe oprogramowanie. Programy często mają problemy ze zgodnością lub luki,
             które mogą zagrozić bezpieczeństwu komputera. Poprawki, aktualizacje i sterowniki oprogramowania są
             udostępniane konsumentom, często za darmo, aby pomóc w utrzymaniu prawidłowego i bezpiecznego działania
@@ -287,14 +324,14 @@
         <p>Program bez metody sprawdzania aktualizacji wymaga od użytkownika sprawdzenia, czy jest aktualny. Często
             można to zrobić odwiedzając stronę internetową producenta, który stworzył program. </p>
         <hr class="white">
-        <h2 id="d" class="internalLink">Ochrona przed złośliwym oprogramowaniem</h2>
+        <h2 id="a3d" class="internalLink">Ochrona przed złośliwym oprogramowaniem</h2>
         <p>Trojany, wirusy, oprogramowanie szpiegujące i inne złośliwe oprogramowanie mogą monitorować komputer i
             rejestrować naciśnięcia klawiszy w celu przechwytywania poufnych danych, takich jak hasła i informacje o
             kartach kredytowych.</p>
         <p>Aby pomóc chronić Twój komputer przed tymi zagrożeniami, sugerujemy zainstalowanie zarówno programów
             antywirusowych, jak i ochrony przed programami szpiegowskimi.</p>
         <br>
-        <p id="d1" class="internalLink"><strong>Jaki antywirus jest najlepszy?</strong></p>
+        <p id="a3d1" class="internalLink"><strong>Jaki antywirus jest najlepszy?</strong></p>
         <p>Poniżej znajduje się lista dwóch stron z recenzjami, które sugerujemy sprawdzić, który program antywirusowy
             może być dla Ciebie najlepszy. Proponujemy te strony recenzyjne, ponieważ są one często aktualizowane i
             przechodzą pełne testy z każdym programem.</p>
@@ -304,19 +341,19 @@
             </li>
         </ul>
         <hr class="white">
-        <h2 id="e" class="internalLink">Jak obsługiwać pocztę elektroniczną?</h2>
+        <h2 id="a3e" class="internalLink">Jak obsługiwać pocztę elektroniczną?</h2>
         <p>Dzisiaj poczta elektroniczna jest jedną z najpopularniejszych funkcji w Internecie. Możliwość identyfikacji
             zagrożeń przesyłanych za pośrednictwem poczty elektronicznej może pomóc w zachowaniu bezpieczeństwa
             komputera i danych osobowych. Poniżej znajdują się niektóre z najczęstszych zagrożeń, z jakimi można się
             spotkać podczas korzystania z poczty elektronicznej.</p>
         <br>
-        <p id="e1" class="internalLink"><strong>Załączniki</strong></p>
+        <p id="a3e1" class="internalLink"><strong>Załączniki</strong></p>
         <p>Nigdy nie otwieraj i nie uruchamiaj załączników do wiadomości e-mail z adresów, które nie są Ci znane.
             Wirusy, oprogramowanie szpieguj ce i inne zło liwe oprogramowanie s powszechnie rozprowadzane za pomoc
             wiadomo ci e-mail zawierających załączniki. Na przykład wiadomo ci e-mail mo e zainteresuj si otwieraniem
             załącznika podającego si za zabawny film, gdy jest on wirusem.</p>
         <br>
-        <p id="e2" class="internalLink"><strong>Phishing</strong></p>
+        <p id="a3e2" class="internalLink"><strong>Phishing</strong></p>
         <p>Wiadomość e-mail typu phish jest wiadomością, która wydaje się pochodzić od oficjalnej firmy (np. banku) i
             zawiera prośbę o zalogowanie się na stronie w celu sprawdzenia ustawień konta. Jednak linki w wiadomościach
             e-mail to strony utworzone w celu kradzieży haseł, informacji o kartach kredytowych, informacji o
@@ -453,14 +490,15 @@
                 <li><a
                         href="https://www.komputerswiat.pl/poradniki/programy/odzyskiwanie-danych-praktyczny-przewodnik/kzl8kqw">www.komputerswiat.pl</a>
                 </li>
-
-
-                <!-- <li><a
-                        href="https://www.av-comparatives.org/testmethod/summary-reports/">av-comparatives.org/testmethod/summary-reports</a>
+                <li><a href="https://pl.wikipedia.org/wiki/Exploit">wikipedia.org/Exploit</a>
+                </li>
+                <li><a href="https://pl.wikipedia.org/wiki/Keylogger">wikipedia.org/Keylogger</a>
                 </li>
                 <li><a
-                        href="https://www.consumersearch.com/article/best-internet-security-software">consumersearch.com/article/best-internet-security-software</a>
-                </li> -->
+                        href="https://pl.wikipedia.org/wiki/Ko%C5%84_troja%C5%84ski_(informatyka)">wikipedia.org/Koń_trojański_(informatyka)</a>
+                </li>
+                <li><a href="https://en.wikipedia.org/wiki/Phishing">wikipedia.org/Phishing</a>
+                </li>
             </ol>
         </p>
     </div>
